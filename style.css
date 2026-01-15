@@ -871,4 +871,154 @@ body::before {
   font-size: 14px;
 
 }
+@media (max-width: 768px) {
+
+  /* ================= BASE ================= */
+  body {
+    padding-top: 90px;
+    animation: none;
+  }
+
+  section {
+    padding: 80px 20px !important;
+  }
+
+  /* ================= NAVBAR ================= */
+  .navbar {
+    padding: 14px 20px;
+  }
+
+  .logo {
+    height: 52px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  /* ================= HERO ================= */
+  .hero {
+    background-attachment: initial;
+  }
+
+  .hero-banner {
+    height: 42vh;
+  }
+
+  .hero-banner-content h2 {
+    font-size: 28px;
+  }
+
+  .hero-banner-content p {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .hero-content {
+    padding: 40px 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 34px;
+    line-height: 1.15;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+  }
+
+  /* ================= BOTÕES ================= */
+  .btn-main {
+    padding: 10px 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  /* ================= DESLIGA VÍDEO ================= */
+  .bg-video {
+    display: none !important;
+  }
+
+  body::before {
+    display: none;
+  }
+
+  /* ================= SOBRE ================= */
+  .about-header h2 {
+    font-size: 34px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+
+  /* ================= ESTATÍSTICAS ================= */
+  .about-stats {
+    flex-direction: column !important;
+    gap: 24px;
+  }
+
+  .stat-card {
+    padding: 32px 24px;
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+
+  /* ================= BENEFÍCIOS ================= */
+  .benefits-header h2 {
+    font-size: 34px;
+  }
+
+  .benefit-card {
+    padding: 32px 24px;
+  }
+
+  /* ================= PLANOS ================= */
+  .plans-header h2 {
+    font-size: 34px;
+  }
+
+  .plan-card {
+    padding: 36px 24px;
+  }
+
+  .plan-card h3 {
+    font-size: 22px;
+  }
+
+  /* ================= LOCALIZAÇÃO ================= */
+  .location-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .location-header h2 {
+    font-size: 34px;
+  }
+
+  .location-map iframe {
+    height: 260px;
+  }
+
+  /* ================= CTA FINAL ================= */
+  .cta-final {
+    padding: 120px 20px;
+  }
+
+  .cta-final h2 {
+    font-size: 34px;
+    line-height: 1.15;
+  }
+
+  .cta-final p {
+    font-size: 15px;
+  }
+}
+
 
